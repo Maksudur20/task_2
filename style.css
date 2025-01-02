@@ -8,7 +8,11 @@
     margin-inline: auto;
     
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 nav{
+    padding: 10px 0px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 .nav{
@@ -19,4 +23,90 @@ nav{
 }
 .nav_right a{
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.hero_left{
+    margin-top: 5rem;
+    
+}
+.hero_left p{
+    line-height: 1.5;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    color: #2f4858;
+    font-weight: 500;
+}
+.button_contacttoday button{
+    margin-top: 50px;
+    margin-left:50px ;
+    background-color: #A2CB45;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+.service_top h1{
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 500%;
+    
+}
+.service_top p{
+    margin-top: 2rem;
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.card_1{
+    padding: 3.5rem 2rem;
+    background: #ecd09c;
+    border-radius: 10px;
+}
+.card_1 h2{
+    color: #898989;
+    font-weight: 50%;
+}
+.card_1 ul li{
+    list-style: none;
+}
+.button_contact button{
+    background-color: #157a46;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 1rem 8rem;
+}
+
+.section_overons{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.overons_right{
+    margin-top: 300px;
+}
+.overons_right p{
+    margin-top: 20px;
+}
+.section_contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.form_name{
+    
 }
